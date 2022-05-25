@@ -8,12 +8,21 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 2% 5%;
+    border: 1px solid #000 !important;
+    label {
+        padding: 5px 0;
+    }
+
     input[type="text"]{
         width: 100%;
         padding: 10px;
         background-color: #ffffff;
-        border: 1px solid #ccc !important;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #ccc !important;
         border-radius: 4px;
         box-sizing: border-box;
         margin-bottom: 10px;
@@ -25,11 +34,24 @@
         width: 100%;
         padding: 10px;
         background-color: #ffffff;
-        border: 1px solid #ccc;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #ccc !important;
         border-radius: 4px;
         box-sizing: border-box;
         margin-bottom: 10px;
         resize: vertical;
         
+    }
+
+    input[type="submit"] {
+        width: 100px;
+        align-self: center;
+        margin-top: 15px;
+        background-color: #e0218a;
+        color: #fff;
+        border-radius: 7px;
+        line-height: 1.2em;
     }
 }

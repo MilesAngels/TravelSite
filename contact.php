@@ -24,7 +24,9 @@
         <input type="email" name="" id="">
 
         <label for="message">Message</label>
-        <textarea name="" id=""></textarea>
+        <textarea name="message" id="message"></textarea>
+
+        <input type="submit">
     </form>
 </div>
 
