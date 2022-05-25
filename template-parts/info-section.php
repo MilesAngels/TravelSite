@@ -1,7 +1,7 @@
     <!-- This is the start of info section -->
     <section class="info-section" id="aboutSection">
         <div class="infoBox">
-            <img src="https://travel-site.local/wp-content/uploads/2022/05/infobox-img-scaled.jpg" alt="beach chairs with umberellas on a beach." height="490px" width="40%" style="border: 1px solid #000;">
+            <img src="https://travel-site.local/wp-content/uploads/2022/05/infobox-img-scaled.jpg" alt="beach chairs with umberellas on a beach." height="490px !important" width="50%" style="border: 1px solid #000;">
         </div>
         <div class="infoBox infoTextbox">
             <h2>BOOK YOUR DREAM VACATION TODAY</h2>

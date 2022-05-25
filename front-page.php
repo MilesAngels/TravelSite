@@ -39,5 +39,14 @@
     </section>
     <!-- This is the end of icon section -->
 
+<!-- Information Section -->
 <?php get_template_part("template-parts/info-section"); ?>
+
+<!-- Banner -->
 <?php get_template_part("template-parts/banner"); ?>
+
+<!-- Back to top button -->
+<?php get_template_part("template-parts/to-top");?>
+
+<!-- Footer -->
+<?php get_footer();?>
