@@ -9,7 +9,7 @@
 ?>
 
 <?php get_header(); ?>
-
+<?php get_template_part("template-parts/hero"); ?>
 <div class="form">
     <form action="#" class="contact-form">
         <h2>
@@ -30,4 +30,6 @@
     </form>
 </div>
 
+<?php get_template_part("template-parts/banner");?>
+<?php get_template_part("template-parts/to-top");?>
 <?php get_footer();?>
