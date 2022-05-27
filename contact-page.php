@@ -1,7 +1,7 @@
 <?php 
     /** 
      * 
-     * Template Name: Contact
+     * Template Name: Contact-Page
      * 
      * @package TravelSite
      * 
@@ -35,9 +35,12 @@
 
     <aside class="contact-column">
         <ul>
-            <li>Email</li>
-            <li>Phone</li>
-            <li>Adress</li>
+            <li><i class="fa-solid fa-envelope">&emsp; Email</i>&emsp;travel@somewhere.com</li>
+            <li><i class="fa-solid fa-mobile">&emsp; Phone</i>&emsp;(000) 000 - 0000</li>
+            <li><i class="fa-solid fa-map-location">&emsp; Address</i>
+            &emsp; 404 Middle Street<br>
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp;Nowhere, NF 11000
+            </li>
         </ul>
     </aside>
 </div>

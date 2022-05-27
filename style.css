@@ -619,6 +619,10 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+* {
+  scroll-behavior: smooth;
+}
+
 .site-header {
   height: 60px;
   width: 100%;
@@ -995,6 +999,9 @@ main {
 .contact-column ul li {
   list-style-type: none;
   line-height: 3em;
+}
+.contact-column ul li .fa-solid {
+  color: #e0218a;
 }
 
 .contact-form {
