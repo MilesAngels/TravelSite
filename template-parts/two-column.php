@@ -17,5 +17,6 @@
             <img class="column portrait-img" src="https://travel-site.local/wp-content/uploads/2022/05/pexels-oliver-sjostrom-931007-scaled.jpg" alt="waterfall">
             <img class="column portrait-img" src="https://travel-site.local/wp-content/uploads/2022/05/pexels-vishal-amin-910307.jpg" alt="lake at base of mountain">
         </div>
+        <blockquote><h2><em>Giving you the experience of a lifetime!</em></h2></blockquote>
     </div>
 </div>
