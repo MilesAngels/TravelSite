@@ -11,23 +11,22 @@
 <?php get_header(); ?>
 
    
-
         <!-- This is the start of icon section -->
         <section class="row">
         <div class="column">
-            <img src="https://travel-site.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
-            <h2>CHOOSE YOUR DESTIANTION</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon1');?>" alt="pink globe icon.">
+            <h2><?php the_field('column_title_1');?></h2>
+            <p><?php the_field('column_paragraph_1');?></p>
         </div>
         <div class="column">
-            <img src="https://travel-site.local/wp-content/uploads/2022/05/airport.png" alt="pink globe icon.">
-            <h2>CATCH YOUR FLIGHT</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon2');?>" alt="pink globe icon.">
+            <h2><?php the_field('column_title_2');?></h2>
+            <p><?php the_field('column_paragraph_2');?></p>
         </div>
         <div class="column">
-            <img src="https://travel-site.local/wp-content/uploads/2022/05/pin.png" alt="pink globe icon.">
-            <h2>LAND IN PARADISE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon3');?>" alt="pink globe icon.">
+            <h2><?php the_field('column_title_1');?></h2>
+            <p><?php the_field('column_paragraph_3');?></p>
         </div>
     </section>
     <!-- This is the end of icon section -->

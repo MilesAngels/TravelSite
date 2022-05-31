@@ -1,15 +1,12 @@
 <!-- This is the start of hero section -->
 <main id="topBtn">
+    <?php if(is_home()): ?>
+        <img src="<?php the_field('hero_image');?>">
+    <?php else :?>
     <img src="<?php the_post_thumbnail();?>">
+    <?php endif; ?>
     <div class="hero-text">
-        <h1><?php the_title();?></h1>
-        <?php $subheading = get_post_meta($post->ID, 'subheading', true);?>
-            <?php if($subheading) :?>
-                <h3><?php echo $subheading;?></h3>
-            <?php endif; ?>
+        <h1><?php the_field('page_title');?></h1>
+        <h3><?php the_field('subtitle'); ?></h3>
     </div>
 </main>
-<!-- This is the end of hero section --> 
-<div class="hero-text" id="topBtn">
-    
-</div>

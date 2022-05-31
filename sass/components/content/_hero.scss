@@ -3,13 +3,14 @@ main{
     width: 100%;
     height: 500px;
     background-color: black;
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    filter: grayscale(30%);
     img {
         width: 100%;
         height: 500px;
-        background-size:contain;
+        background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
+        
     }
     
 }
@@ -20,6 +21,9 @@ main{
     position: absolute;
     top: 30%;
     left: 50%;
+    
     transform: translate(-50%, -50%);
+    
 }
+
 /* This is the end of hero section  */
