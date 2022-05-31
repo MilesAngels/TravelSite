@@ -9,7 +9,6 @@
 ?>
 
 <?php get_header(); ?>
-<?php get_template_part("template-parts/hero"); ?>
 
 <!-- Start of Contact Form -->
 <div class="contact-section row">
