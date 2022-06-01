@@ -11,8 +11,6 @@
  *
  * @package TravelSite
  */
-
-get_header();
 ?>
 	
 		<?php
@@ -20,20 +18,18 @@ get_header();
 
 			if ( is_home() && ! is_front_page() ) :
 				?>
-				<?php 
-					/* Start the Loop */
-				while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				 get_template_part( 'template-parts/content-page', get_post_type() );
-
-			endwhile;
+				<?php get_header(); ?>
+				
+				<?php
+					/*
+					* Include the Post-Type-specific template for the content.
+					* If you want to override this in a child theme, then include a file
+					* called content-___.php (where ___ is the Post Type name) and that will be used instead.
+					*/
+					//  get_template_part( 'template-parts/content-page', get_post_type() );
+					get_template_part('template-parts/blog-page');
 				?>
+
 				<?php
 			endif;
 

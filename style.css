@@ -1075,6 +1075,33 @@ div .two-column:nth-of-type(odd) {
   max-width: 100%;
 }
 
+.moreBtn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 30px;
+  padding: 0;
+  border-radius: 50px;
+}
+.moreBtn a {
+  padding: 8px 8px;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+}
+
+.moreBtn a:hover {
+  background-color: darkmagenta;
+}
+
+.moreBtn a:active {
+  background-color: cornflowerblue;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
