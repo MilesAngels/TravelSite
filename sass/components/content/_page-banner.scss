@@ -17,11 +17,13 @@
     padding-top: 200px;
     align-items: center;
     text-align: center;
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://travel-site.local/wp-content/uploads/2022/05/banner-img-scaled.jpg');
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 10%;
+    filter: grayscale(40%);
 }
+
 
 .bannerCopy{
     width: 800px;
