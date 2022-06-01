@@ -1075,6 +1075,25 @@ div .two-column:nth-of-type(odd) {
   max-width: 100%;
 }
 
+.container {
+  display: flex;
+  width: 100%;
+  margin: 3rem;
+  flex-wrap: wrap;
+}
+.container .card {
+  width: calc(30% - 30px);
+  margin: 30px;
+}
+.container .card h2 {
+  font-style: italic;
+  text-align: center;
+}
+.container .card img {
+  width: 100%;
+  height: 250px;
+}
+
 .moreBtn {
   display: flex;
   justify-content: end;

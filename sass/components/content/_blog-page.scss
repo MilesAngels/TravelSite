@@ -1,3 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+    margin: 3rem;
+    flex-wrap: wrap;
+    .card {
+        width: calc(30% - 30px);
+        margin: 30px;
+        h2 {
+            font-style: italic;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
 .moreBtn {
     display: flex;
     justify-content: end;
