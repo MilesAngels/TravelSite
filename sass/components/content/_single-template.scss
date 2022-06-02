@@ -1,0 +1,20 @@
+$white: #fff;
+
+.bg-white {
+    background-color: $white;
+}
+
+.single-row {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px;
+    aside {
+        width: 40%;
+    }
+    article {
+        width: 60%;
+    }
+
+
+}
+
